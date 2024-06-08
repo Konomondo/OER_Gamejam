@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/CCC/CCC-Styles.uss?fileID=7433441132597879392&amp;guid=b026c1333a2632e42a4d062ebfad9081&amp;type=3#CCC-Styles" />
+    <ui:VisualElement name="container" style="flex-grow: 1; background-color: rgb(255, 65, 180);">
+        <ui:VisualElement name="top" style="flex-grow: 1;" />
+        <ui:VisualElement name="bottom" style="height: 32%; align-items: center;">
+            <ui:VisualElement name="menu-items" style="width: 80%; height: 80%; justify-content: space-around;">
+                <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="playButton" class="menu-item-height menu-item-font-size" />
+                <CCC.UI.DifficultySelectorUIE class="menu-item-height menu-item-font-size" style="justify-content: space-around;" />
+                <ui:Label tabindex="-1" text="Here it says your best score" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bestScoreLabel" class="menu-item-height menu-item-font-size" style="-unity-text-align: upper-center;" />
+                <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="quitButton" class="menu-item-height menu-item-font-size" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

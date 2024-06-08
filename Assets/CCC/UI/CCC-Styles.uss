@@ -1,0 +1,7 @@
+.menu-item-height {
+    height: 16%;
+}
+
+.menu-item-font-size {
+    font-size: 36px;
+}
