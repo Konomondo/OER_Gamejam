@@ -9,6 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a0d8d61e6a74483bb0b1ea4cf868dab, type: 3}
-  m_Name: GameEvent
+  m_Script: {fileID: 11500000, guid: 5f0b455f76373a3439e07899a462f098, type: 3}
+  m_Name: 004
   m_EditorClassIdentifier: 
+  <Parts>k__BackingField:
+  - {fileID: 11400000, guid: d719fc315c663874f8c56b731a91db0c, type: 2}
+  - {fileID: 11400000, guid: 60253f02053fe35408a50951246f9a30, type: 2}
